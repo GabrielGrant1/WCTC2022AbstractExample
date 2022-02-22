@@ -19,6 +19,9 @@ namespace AbstractExample
             else if (choice == "2")
             {
                 animal = new Dog();
+            }else if (choice == "3")
+            {
+                animal = new Owl("Fredrick");
             }
 
             animal?.MakeNoise();
